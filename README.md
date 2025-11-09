@@ -73,7 +73,7 @@ Freedom and connectivity. 10 photos of travel-ready streetwear.
 - **Radix UI** - Accessible component primitives
 
 ### Development
-- **pnpm 9.15.0** - Fast, disk space efficient package manager
+- **npm** - Package manager
 - **ESLint** - Code linting
 - **PostCSS** - CSS processing
 
@@ -82,27 +82,23 @@ Freedom and connectivity. 10 photos of travel-ready streetwear.
 ### Prerequisites
 
 - Node.js 18+ 
-- pnpm (recommended) or npm
+- npm (comes with Node.js)
 
 ### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/blockrun-drops.git
+   git clone https://github.com/olegromanuk/blockrun-drops.git
    cd blockrun-drops
    ```
 
 2. **Install dependencies**
    ```bash
-   pnpm install
-   # or
    npm install
    ```
 
 3. **Start development server**
    ```bash
-   pnpm dev
-   # or
    npm run dev
    ```
 
@@ -114,8 +110,6 @@ Freedom and connectivity. 10 photos of travel-ready streetwear.
 ### Build for Production
 
 ```bash
-pnpm build
-# or
 npm run build
 ```
 
@@ -124,8 +118,6 @@ The build output will be in the `dist/` directory.
 ### Preview Production Build
 
 ```bash
-pnpm preview
-# or
 npm run preview
 ```
 
@@ -133,7 +125,7 @@ npm run preview
 
 ### Deploy to Vercel (Recommended)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/blockrun-drops)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/olegromanuk/blockrun-drops)
 
 **Via Vercel CLI:**
 
@@ -144,16 +136,16 @@ vercel --prod
 ```
 
 **Configuration:**
-- Build Command: `pnpm run build`
+- Build Command: `npm run build`
 - Output Directory: `dist`
-- Install Command: `pnpm install`
+- Install Command: `npm install`
 
 ### Deploy to Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/YOUR_USERNAME/blockrun-drops)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/olegromanuk/blockrun-drops)
 
 **Configuration:**
-- Build Command: `pnpm run build`
+- Build Command: `npm run build`
 - Publish Directory: `dist`
 
 ### Other Platforms
@@ -198,7 +190,6 @@ blockrun-drops/
 ├── package.json
 ├── tsconfig.json
 ├── vite.config.ts
-├── tailwind.config.ts
 └── vercel.json                 # Vercel configuration
 ```
 
@@ -236,8 +227,7 @@ Edit `src/data/dropsData.ts`:
 ### Customizing Styles
 
 The project uses Tailwind CSS. Customize in:
-- `tailwind.config.ts` - Theme configuration
-- `src/index.css` - Global styles
+- `src/index.css` - Global styles and Tailwind directives
 
 ## 📊 Performance
 
@@ -278,7 +268,7 @@ For issues and questions:
 
 - **Live Demo:** [Coming Soon]
 - **Documentation:** [See README]
-- **Repository:** https://github.com/YOUR_USERNAME/blockrun-drops
+- **Repository:** https://github.com/olegromanuk/blockrun-drops
 
 ---
 
